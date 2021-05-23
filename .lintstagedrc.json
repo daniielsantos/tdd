@@ -1,7 +1,5 @@
 {
   "*.ts":[
-    "eslint --fix",
-    "jest --clearCache",
     "npm run test:staged"    
   ]
 }
