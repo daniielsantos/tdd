@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
   "scripts": {
     "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests"
