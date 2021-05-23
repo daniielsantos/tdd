@@ -9,7 +9,7 @@ export class SignUpcontroller {
     if (!httpResquest.body.email) {
       return {
         statusCode: 400,
-        body: new Error('Missing param: emd')
+        body: new Error('Missing param: emdsd')
       }
     }
   }
