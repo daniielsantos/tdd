@@ -1,3 +1,4 @@
+
 export class SignUpcontroller {
   handle (httpResquest: any): any {
     if (!httpResquest.body.name) {
